@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "😈 KALI",
+      "path": "00 😈/😈 KALI.md"
+    },
+    {
+      "type": "file",
+      "title": "curling",
+      "path": "01 📦/📦 curling.md"
+    },
+    {
+      "type": "file",
+      "title": "Emoji",
+      "path": "09 🎒/Emoji List.md"
+    },
+    {
+      "type": "file",
+      "title": "🏷️ Tags & Emoji",
+      "path": "09 🎒/🏷️ Tags & Emoji.md"
+    },
+    {
+      "type": "file",
+      "title": "P3DD",
+      "path": "02 COURSES/Fred Baptiste/P3DD.md"
+    },
+    {
+      "type": "file",
+      "title": "new_target",
+      "path": "10 TEMPLATES/New Target/Acme Corporation.md"
+    },
+    {
+      "type": "file",
+      "title": "HTB Academy - Cheatsheets",
+      "path": "01 HTB/Academy/HTB Academy - Cheatsheets.md"
+    },
+    {
+      "type": "file",
+      "title": "RedPanda",
+      "path": "01 HTB/X/Machines/RedPanda/RedPanda.md"
+    },
+    {
+      "type": "file",
+      "title": "DNS",
+      "path": "04 TACTICS/DNS.md"
+    },
+    {
+      "type": "file",
+      "title": "FTP",
+      "path": "04 TACTICS/FTP.md"
+    },
+    {
+      "type": "file",
+      "title": "IMAP POP3",
+      "path": "04 TACTICS/IMAP POP3.md"
+    },
+    {
+      "type": "file",
+      "title": "IPMI",
+      "path": "04 TACTICS/IPMI.md"
+    },
+    {
+      "type": "file",
+      "title": "MSSQL",
+      "path": "04 TACTICS/MSSQL.md"
+    },
+    {
+      "type": "file",
+      "title": "MySQL",
+      "path": "04 TACTICS/MySQL.md"
+    },
+    {
+      "type": "file",
+      "title": "NFS",
+      "path": "04 TACTICS/NFS.md"
+    },
+    {
+      "type": "file",
+      "title": "REMOTE MANAGEMENT",
+      "path": "04 TACTICS/REMOTE MANAGEMENT.md"
+    },
+    {
+      "type": "file",
+      "title": "SMB",
+      "path": "04 TACTICS/SMB.md"
+    },
+    {
+      "type": "file",
+      "title": "SMTP",
+      "path": "04 TACTICS/SMTP.md"
+    },
+    {
+      "type": "file",
+      "title": "SNMP",
+      "path": "04 TACTICS/SNMP.md"
+    },
+    {
+      "type": "file",
+      "title": "Information Gathering - Web Edition",
+      "path": "01 HTB/Academy/02. Information Gathering/12. Information Gathering - Web Edition/Information Gathering - Web Edition.md"
+    },
+    {
+      "type": "file",
+      "title": "HTB Academy Roadmap",
+      "path": "11 ROADMAPS/HTB Academy Roadmap.canvas"
+    }
+  ]
+}

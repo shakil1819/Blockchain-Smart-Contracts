@@ -1,0 +1,30 @@
+/*https://raw.githubusercontent.com/deathau/obsidian-snippets/main/notation-colour-blocks.css*/
+
+/* Dark theme */
+.theme-dark {
+  --background-gray: rgb(39, 39, 39);
+}
+
+.app-container .markdown-preview-view pre[class*="language-text"] {
+  padding: 16px 16px;
+  border-radius: 0;
+}
+
+/*Font*/
+.app-container .markdown-preview-view pre[class*="language-text"] code[class*="language-text"] {
+  color: rgb(190, 190, 190);
+  white-space: pre-wrap;
+  font-family: var(--default-font);
+  font-size: 0.67rem;
+  padding: 0;
+  background:none;
+}
+
+.app-container .markdown-preview-view pre.language-note-notice,
+.app-container .markdown-preview-view pre.language-note-gray-background,
+.app-container .markdown-preview-view pre.language-note-gray-bg,
+.app-container .markdown-preview-view pre.language-text,
+.gray-background,
+.gray-bg {
+  background-color: var(--background-gray);
+}

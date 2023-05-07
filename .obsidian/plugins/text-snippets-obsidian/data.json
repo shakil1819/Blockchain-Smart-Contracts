@@ -1,0 +1,16 @@
+{
+  "snippets_file": "s : ```shell-session$nl$$tb$$nl$```\nb : ```bash$nl$$tb$$nl$```\np : ```python$nl$$tb$$nl$```",
+  "snippets": [
+    "s : ```shell-session$nl$$tb$$nl$```",
+    "b : ```bash$nl$$tb$$nl$```",
+    "p : ```python$nl$$tb$$nl$```"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}

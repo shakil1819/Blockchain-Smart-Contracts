@@ -1,0 +1,13 @@
+{
+  "accentColor": "",
+  "theme": "obsidian",
+  "cssTheme": "Big Sur Aesthetic",
+  "baseFontSize": 19,
+  "enabledCssSnippets": [
+    "Unknown-snippet",
+    "color-blocks",
+    "responsive-yt"
+  ],
+  "translucency": true,
+  "nativeMenus": true
+}

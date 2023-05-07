@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "😈",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "📦",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "💢",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "⚙️",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "🔥",
+      "color": {
+        "a": 1,
+        "rgb": 15778816
+      }
+    },
+    {
+      "query": "🗃",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "🤖",
+      "color": {
+        "a": 1,
+        "rgb": 9803937
+      }
+    },
+    {
+      "query": "🧩",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "🧑",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.4734375,
+  "lineSizeMultiplier": 0.265885416666667,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 9.375,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.33576579988115735,
+  "close": true
+}
