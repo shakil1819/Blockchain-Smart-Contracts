@@ -1,0 +1,465 @@
+WEBVTT
+
+1
+00:00:03.740 --> 00:00:07.800
+For currency transfer, the verification and validation,
+
+2
+00:00:07.800 --> 00:00:11.450
+we're just checking the existence and validity of UTXOs,
+
+3
+00:00:11.450 --> 00:00:15.185
+the balances, and the structural characteristics.
+
+4
+00:00:15.185 --> 00:00:17.810
+When a chain is thrown open for
+
+5
+00:00:17.810 --> 00:00:24.065
+an arbitrary decentralized application requiring trust and immutable recording,
+
+6
+00:00:24.065 --> 00:00:29.180
+conditions to be verified and validated become application-specific.
+
+7
+00:00:29.180 --> 00:00:31.230
+At the completion of this lesson,
+
+8
+00:00:31.230 --> 00:00:34.765
+you will be able to define the structure of a smart contract,
+
+9
+00:00:34.765 --> 00:00:40.035
+apply this knowledge to understand with a real contract written in Solidity language,
+
+10
+00:00:40.035 --> 00:00:46.300
+use a web development environment Remix to invoke and interact with a smart contract.
+
+11
+00:00:46.300 --> 00:00:49.220
+Structural and meta-level attributes of
+
+12
+00:00:49.220 --> 00:00:53.220
+a transaction are verified at the blockchain protocol level.
+
+13
+00:00:53.220 --> 00:00:56.550
+How were the application-specific constraints?
+
+14
+00:00:56.550 --> 00:01:00.560
+The answer is in the critical role played by the smart contract.
+
+15
+00:01:00.560 --> 00:01:02.330
+Smart contract work with
+
+16
+00:01:02.330 --> 00:01:08.594
+the application-specific semantics and constraints of the transaction and verify,
+
+17
+00:01:08.594 --> 00:01:10.770
+validates, and executes them.
+
+18
+00:01:10.770 --> 00:01:14.580
+Most of all, since it is deployed on the blockchain,
+
+19
+00:01:14.580 --> 00:01:20.760
+the smart contract leverages the immutable recording and trust model of the blockchain.
+
+20
+00:01:20.760 --> 00:01:23.980
+Since a smart contract is deployed in the blockchain,
+
+21
+00:01:23.980 --> 00:01:26.450
+it is an immutable piece of code,
+
+22
+00:01:26.450 --> 00:01:28.820
+and once deployed, it cannot be changed.
+
+23
+00:01:28.820 --> 00:01:33.080
+We will have to redeploy the code as a new smart contract,
+
+24
+00:01:33.080 --> 00:01:37.700
+or somehow redirect the calls from a old contract to the new one.
+
+25
+00:01:37.700 --> 00:01:42.605
+Smart contract can store variables in it called state variables.
+
+26
+00:01:42.605 --> 00:01:47.395
+We could retrieve how these variables change over the blocks.
+
+27
+00:01:47.395 --> 00:01:52.420
+Contract in the Ethereum blockchain has pragma directive,
+
+28
+00:01:52.420 --> 00:01:54.445
+name of the contract,
+
+29
+00:01:54.445 --> 00:01:59.315
+data or the state variable that define the state of the contract,
+
+30
+00:01:59.315 --> 00:02:04.110
+collection of function to carry out the intent of a smart contract.
+
+31
+00:02:04.110 --> 00:02:07.760
+Other items, we'll discuss in the later lessons.
+
+32
+00:02:07.760 --> 00:02:14.500
+Identifiers representing these elements are restricted to ASCII character set.
+
+33
+00:02:14.500 --> 00:02:18.400
+Make sure you select meaningful identifiers
+
+34
+00:02:18.400 --> 00:02:22.945
+and follow camel case convention in naming them.
+
+35
+00:02:22.945 --> 00:02:25.170
+We'll learn these concepts using
+
+36
+00:02:25.170 --> 00:02:29.900
+simple contracts written in high level language called Solidity.
+
+37
+00:02:29.900 --> 00:02:33.635
+We will use a web integrated development environment,
+
+38
+00:02:33.635 --> 00:02:36.874
+IDE, called Remix to create,
+
+39
+00:02:36.874 --> 00:02:45.030
+deploy, execute, and explore the working of few representative smart contracts.
+
+40
+00:02:45.700 --> 00:02:49.295
+Welcome to Remix IDE.
+
+41
+00:02:49.295 --> 00:02:53.230
+This is available at Remix.ethereum.org.
+
+42
+00:02:53.230 --> 00:02:57.650
+Here is the environment that is available as a web interface.
+
+43
+00:02:57.650 --> 00:03:01.100
+On the left side, you see the file browser,
+
+44
+00:03:01.100 --> 00:03:04.370
+where you can see all the smart contracts that you have created.
+
+45
+00:03:04.370 --> 00:03:05.915
+You can create a new one,
+
+46
+00:03:05.915 --> 00:03:07.375
+and it'll have an entry here.
+
+47
+00:03:07.375 --> 00:03:09.890
+In the middle is the editor window,
+
+48
+00:03:09.890 --> 00:03:13.245
+where you'll type in the smart contract.
+
+49
+00:03:13.245 --> 00:03:16.280
+At the bottom is a console or the output window.
+
+50
+00:03:16.280 --> 00:03:17.360
+On the right side,
+
+51
+00:03:17.360 --> 00:03:18.875
+you have the tools compile,
+
+52
+00:03:18.875 --> 00:03:21.800
+run, settings, analysis, debugger, and support.
+
+53
+00:03:21.800 --> 00:03:25.840
+At the bottom will be the web interface,
+
+54
+00:03:25.840 --> 00:03:30.790
+and ability to create a smart contract will be somewhere in this middle.
+
+55
+00:03:31.390 --> 00:03:34.234
+With all these features,
+
+56
+00:03:34.234 --> 00:03:38.425
+Remix is indeed a one-stop environment to develop,
+
+57
+00:03:38.425 --> 00:03:41.470
+deploy, and test a smart contract.
+
+58
+00:03:41.470 --> 00:03:47.245
+We will examine two very simple smart contracts,
+
+59
+00:03:47.245 --> 00:03:52.805
+greeter and one integer storage, simple storage.
+
+60
+00:03:52.805 --> 00:04:00.710
+These two examples are modified versions of the example given in Solidity documentation.
+
+61
+00:04:00.710 --> 00:04:04.825
+Our goal is to get an overview of the structure of
+
+62
+00:04:04.825 --> 00:04:09.615
+a smart contract without getting into the details of the Solidity language.
+
+63
+00:04:09.615 --> 00:04:15.100
+However, we'll explain every item in the smart contract we plan to explore.
+
+64
+00:04:15.100 --> 00:04:23.625
+Let's look at three steps in the development of a smart contract: design, code, and test.
+
+65
+00:04:23.625 --> 00:04:26.495
+Here is the design of the Greeter contract.
+
+66
+00:04:26.495 --> 00:04:29.215
+This is the Hello World of smart contract.
+
+67
+00:04:29.215 --> 00:04:35.505
+Greeter has a string variable named yourName, the constructor Greeter,
+
+68
+00:04:35.505 --> 00:04:38.405
+a set function to set the name,
+
+69
+00:04:38.405 --> 00:04:40.900
+and a hello function that returns
+
+70
+00:04:40.900 --> 00:04:46.100
+a string name so that you can use it to greet the world.
+
+71
+00:04:46.960 --> 00:04:51.350
+Here, we see the code for the Greeter contract.
+
+72
+00:04:51.350 --> 00:04:55.810
+It begins with the pragma that provides a version number so that
+
+73
+00:04:55.810 --> 00:05:00.360
+the compiler knows which version of Solidity this was developed in.
+
+74
+00:05:00.360 --> 00:05:04.520
+You also see the name of the contract Greeter,
+
+75
+00:05:04.520 --> 00:05:07.115
+the state variable yourName.
+
+76
+00:05:07.115 --> 00:05:10.390
+Note that it is in camel notation.
+
+77
+00:05:10.390 --> 00:05:12.470
+This is followed by functions,
+
+78
+00:05:12.470 --> 00:05:16.740
+the constructor Greeter that initializes yourName variable,
+
+79
+00:05:16.740 --> 00:05:24.730
+set function that sets a variable to a name supplied by the users message as a parameter,
+
+80
+00:05:24.730 --> 00:05:30.780
+and a hello function that retrieves the name for use by the invoking application.
+
+81
+00:05:30.780 --> 00:05:34.240
+Remix is where we test.
+
+82
+00:05:34.370 --> 00:05:38.835
+Now, let's look at the Greeter contract.
+
+83
+00:05:38.835 --> 00:05:41.110
+Here is a Greeter contract.
+
+84
+00:05:41.110 --> 00:05:42.735
+At the first line,
+
+85
+00:05:42.735 --> 00:05:45.540
+you see pragma Solidity.
+
+86
+00:05:45.540 --> 00:05:48.465
+This provides the version of the Solidity.
+
+87
+00:05:48.465 --> 00:05:51.925
+Then, it starts with the contract name,
+
+88
+00:05:51.925 --> 00:05:55.025
+followed up by the data or the state variables,
+
+89
+00:05:55.025 --> 00:05:56.955
+followed up by the functions.
+
+90
+00:05:56.955 --> 00:05:59.640
+There are three functions here: Greeter,
+
+91
+00:05:59.640 --> 00:06:02.700
+which is a constructor,
+
+92
+00:06:02.700 --> 00:06:08.320
+and a set function which is setting the data variable, and then,
+
+93
+00:06:08.320 --> 00:06:14.350
+a hello function which extracts the values of the state variable and returns it.
+
+94
+00:06:14.350 --> 00:06:21.060
+The state variable here is yourName and it has a public visibility modifier,
+
+95
+00:06:21.060 --> 00:06:22.785
+and the function Greeter,
+
+96
+00:06:22.785 --> 00:06:27.775
+the constructor initializes yourName to World,
+
+97
+00:06:27.775 --> 00:06:33.880
+and the function set initializes yourName to the name provided by the sender.
+
+98
+00:06:33.880 --> 00:06:39.115
+Hello returns whatever value that was set in the state variable.
+
+99
+00:06:39.115 --> 00:06:40.780
+Let's run it and see.
+
+100
+00:06:40.780 --> 00:06:43.120
+I'm going to start by compiling it,
+
+101
+00:06:43.120 --> 00:06:45.430
+and then, running it.
+
+102
+00:06:45.430 --> 00:06:50.050
+When I run, I have to deploy the smart contract on a JavaScript VM.
+
+103
+00:06:50.050 --> 00:06:54.070
+I'm going to change it to JavaScript VM,
+
+104
+00:06:54.070 --> 00:06:55.830
+and I'm going to create it.
+
+105
+00:06:55.830 --> 00:06:57.210
+When I create it,
+
+106
+00:06:57.210 --> 00:07:02.135
+this is the web interface where you will see all the public variables.
+
+107
+00:07:02.135 --> 00:07:05.650
+YourName is a public variable that's available there.
+
+108
+00:07:05.650 --> 00:07:08.950
+Hello is a public function that is available there,
+
+109
+00:07:08.950 --> 00:07:13.125
+and set is another public function that is available there.
+
+110
+00:07:13.125 --> 00:07:16.635
+When I just simply say yourName,
+
+111
+00:07:16.635 --> 00:07:20.220
+the current yourName given is World that shows up.
+
+112
+00:07:20.220 --> 00:07:24.140
+I'm going to set the name to Buffalo.
+
+113
+00:07:26.400 --> 00:07:30.795
+If I set the name to Buffalo and I click on yourName,
+
+114
+00:07:30.795 --> 00:07:32.580
+yourName shows up at Buffalo.
+
+115
+00:07:32.580 --> 00:07:34.905
+If I click on the function hello,
+
+116
+00:07:34.905 --> 00:07:40.840
+hello will return the current yourName that happens to be Buffalo, and it will show up.
