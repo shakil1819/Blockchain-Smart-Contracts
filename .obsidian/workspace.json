@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Week 1 evaluation.md",
+                "file": "Module 2/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module 1/Week 1 evaluation.md"
+                "file": "Module 2/README.md"
               }
             }
           },
@@ -151,6 +151,8 @@
   },
   "active": "c499c3a0614f26da",
   "lastOpenFiles": [
+    "Module 1/Week 1 evaluation.md",
+    "Module 2/README.md",
     "Module 1/attachments/Pasted image 20230703075915.png",
     "Module 1/attachments/course2_code_0.5.9/artifacts/build-info/c16af5ed97521a81933175913107720d.json",
     "Module 1/attachments/course2_code_0.5.9/artifacts/Auction.json",
@@ -158,7 +160,6 @@
     "Module 1/attachments/course2_code_0.5.9/artifacts/build-info/de12c7cd15806c747835490465ed855b.json",
     "Module 1/attachments/Pasted image 20230703074428.png",
     "Module 1/4.Deploying Smart Contracts/Quiz.md",
-    "Module 1/Week 1 evaluation.md",
     "Module 1/4.Deploying Smart Contracts/attachments/Pasted image 20230703074249.png",
     "Module 1/4.Deploying Smart Contracts/Reading.md",
     "Module 1/4.Deploying Smart Contracts/attachments/Pasted image 20230703073824.png",
@@ -180,7 +181,6 @@
     "Module 1/2.Smart Contracts Defined/Practice Quiz.md",
     "Module 1/2.Smart Contracts Defined/attachments/Pasted image 20230702114555.png",
     "Module 1/2.Smart Contracts Defined/Reading.md",
-    "Module 1/2.Smart Contracts Defined/attachments/Pasted image 20230702105043.png",
     "Module 1/2.Smart Contracts Defined/Video 2.md",
     "Module 1/2.Smart Contracts Defined/Video 1.md",
     "Module 1/1.Why Smart Contracts/Video.md",
