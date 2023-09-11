@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 2/3.Specific Data Types/Video 1.md",
+                "file": "Module 2/4.Data Structures/quiz.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,12 +105,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module 2/3.Specific Data Types/Video 1.md"
+                "file": "Module 2/4.Data Structures/quiz.md"
               }
             }
           },
           {
-            "id": "29fe3b2e1f7f5688",
+            "id": "23d05265625498ce",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -118,7 +118,7 @@
             }
           },
           {
-            "id": "7eb320271b4947ef",
+            "id": "78f32b40052d4cb0",
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
@@ -149,54 +149,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "28c312cd65e2be84",
+  "active": "c499c3a0614f26da",
   "lastOpenFiles": [
+    "Module 2/4.Data Structures/attachments/Pasted image 20230912022516.png",
+    "Module 2/4.Data Structures/reading.md",
+    "Module 2/4.Data Structures/attachments/Pasted image 20230912022357.png",
+    "Module 2/4.Data Structures/video 1.md",
+    "Module 2/4.Data Structures/video 2.md",
+    "Module 2/4.Data Structures/attachments/index.mp4",
+    "Module 2/README.md",
+    "Module 2/4.Data Structures/attachments/index_2.mp4",
+    "Module 2/4.Data Structures/quiz.md",
+    "Module 2/3.Specific Data Types/Quiz.md",
+    "Module 2/4.Data Structures/attachments",
+    "Module 2/3.Specific Data Types/attachments/Pasted image 20230912020404.png",
+    "Module 2/3.Specific Data Types/Read.md",
+    "Module 2/3.Specific Data Types/attachments/Pasted image 20230912020240.png",
+    "Module 2/3.Specific Data Types/attachments/Pasted image 20230912020227.jpg",
+    "Module 2/3.Specific Data Types/Video 2.md",
+    "Module 2/3.Specific Data Types/attachments/index_1.mp4",
+    "Module 2/1.Structure/Video.md",
+    "Module 1/Week 1 evaluation.md",
+    "Module 2/3.Specific Data Types/Video 1.md",
     "Module 2/3.Specific Data Types/attachments/subtitle.txt",
     "Module 2/3.Specific Data Types/attachments/subtitle.txt.crdownload",
     "Module 2/3.Specific Data Types/attachments/index.mp4",
     "Module 2/3.Specific Data Types/attachments",
     "Module 2/3.Specific Data Types/New folder",
     "Module 2/2.Basic Data Types & Statements/Quiz.md",
-    "Module 2/3.Specific Data Types/Video 1.md",
     "Module 2/2.Basic Data Types & Statements/attachments/Pasted image 20230704092433.png",
     "Module 2/2.Basic Data Types & Statements/Reading.md",
     "Module 2/2.Basic Data Types & Statements/attachments/Pasted image 20230704092325.png",
     "Module 2/2.Basic Data Types & Statements/attachments/Pasted image 20230704092307.jpg",
     "Module 2/2.Basic Data Types & Statements/Video.md",
-    "Module 2/README.md",
     "Module 2/2.Basic Data Types & Statements/attachments/index.mp4",
-    "Module 2/2.Basic Data Types & Statements/attachments",
-    "Module 2/2.Basic Data Types & Statements/New folder",
     "Module 2/1.Structure/Quiz.md",
     "Module 2/1.Structure/attachments/Pasted image 20230704090144.png",
     "Module 2/1.Structure/Reading.md",
     "Module 2/1.Structure/attachments/Pasted image 20230704090039.png",
     "Module 2/1.Structure/attachments/Pasted image 20230704090019.jpg",
-    "Module 2/1.Structure/Video.md",
-    "Module 2/1.Structure/attachments/index.mp4",
-    "Module 2/1.Structure/attachments",
-    "Module 2/1.Structure/New folder",
     "Module 2/Untitled.md",
-    "Module 1/Week 1 evaluation.md",
-    "Module 1/attachments/Pasted image 20230703075915.png",
-    "Module 1/attachments/Pasted image 20230703074428.png",
     "Module 1/4.Deploying Smart Contracts/Quiz.md",
-    "Module 1/4.Deploying Smart Contracts/attachments/Pasted image 20230703074249.png",
     "Module 1/4.Deploying Smart Contracts/Reading.md",
-    "Module 1/4.Deploying Smart Contracts/attachments/Pasted image 20230703073824.png",
     "Module 1/4.Deploying Smart Contracts/Video.md",
     "Module 1/3.Processing Smart Contracts/Video.md",
     "Module 1/3.Processing Smart Contracts/Quiz.md",
     "Module 1/3.Processing Smart Contracts/Reading.md",
     "Module 1/2.Smart Contracts Defined/Practice Quiz.md",
     "Module 1/2.Smart Contracts Defined/Reading.md",
-    "Module 1/2.Smart Contracts Defined/Video 2.md",
-    "Module 1/2.Smart Contracts Defined/Video 1.md",
-    "Module 1/1.Why Smart Contracts/Video.md",
-    "Module 1/1.Why Smart Contracts/Reading - 2.md",
-    "Module 1/1.Why Smart Contracts/reading - 1.md",
-    "Module 1/M1.md",
-    "Module 1/1.Why Smart Contracts/Practice Quiz.md",
     "Untitled.canvas"
   ]
 }
