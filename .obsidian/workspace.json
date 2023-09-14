@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 2/4.Data Structures/quiz.md",
+                "file": "Module 3/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 278.5
   },
   "right": {
     "id": "0c799eff9ce64e70",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module 2/4.Data Structures/quiz.md"
+                "file": "Module 3/README.md"
               }
             }
           },
@@ -123,6 +123,16 @@
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
               "state": {}
+            }
+          },
+          {
+            "id": "eb4ff8f64f36c681",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ]
@@ -151,52 +161,52 @@
   },
   "active": "c499c3a0614f26da",
   "lastOpenFiles": [
+    "Module 3/Week 3 Evaluation",
+    "Module 3/3.Client Applications",
+    "Module 3/2.Validation and Test",
+    "Module 3/1.Time Elements",
+    "Module 3/0.Developing Smart Contracts",
+    "Module 2/6.Week 2 Evaluation/Quiz.md",
+    "Module 3/README.md",
+    "Module 2/6.Week 2 Evaluation/attachments/Pasted image 20230914233356.png",
+    "Module 2/6.Week 2 Evaluation/attachments",
+    "Module 2/5.Access Modifiers & Applications/Quiz.md",
+    "Module 2/README.md",
+    "Module 2/5.Access Modifiers & Applications/attachments/Pasted image 20230912023345.png",
+    "Module 2/5.Access Modifiers & Applications/attachments/Pasted image 20230912023055.jpg",
+    "Module 2/5.Access Modifiers & Applications/attachments/Pasted image 20230912023034.jpg",
+    "Module 2/5.Access Modifiers & Applications/attachments/Pasted image 20230912023031.png",
+    "Module 2/5.Access Modifiers & Applications/attachments/Pasted image 20230912023022.png",
+    "Module 2/5.Access Modifiers & Applications/attachments/Pasted image 20230912023018.png",
+    "Module 2/5.Access Modifiers & Applications/Reading.md",
+    "Module 2/5.Access Modifiers & Applications/attachments/Pasted image 20230912023013.png",
+    "Module 2/5.Access Modifiers & Applications/Video.md",
+    "Module 2/5.Access Modifiers & Applications/attachments/index_3.mp4",
+    "Module 2/4.Data Structures/quiz.md",
+    "Module 2/5.Access Modifiers & Applications/attachments",
+    "Module 2/5.Access Modifiers & Applications/New folder",
     "Module 2/4.Data Structures/attachments/Pasted image 20230912022516.png",
     "Module 2/4.Data Structures/reading.md",
     "Module 2/4.Data Structures/attachments/Pasted image 20230912022357.png",
     "Module 2/4.Data Structures/video 1.md",
     "Module 2/4.Data Structures/video 2.md",
     "Module 2/4.Data Structures/attachments/index.mp4",
-    "Module 2/README.md",
     "Module 2/4.Data Structures/attachments/index_2.mp4",
-    "Module 2/4.Data Structures/quiz.md",
     "Module 2/3.Specific Data Types/Quiz.md",
-    "Module 2/4.Data Structures/attachments",
-    "Module 2/3.Specific Data Types/attachments/Pasted image 20230912020404.png",
     "Module 2/3.Specific Data Types/Read.md",
-    "Module 2/3.Specific Data Types/attachments/Pasted image 20230912020240.png",
-    "Module 2/3.Specific Data Types/attachments/Pasted image 20230912020227.jpg",
     "Module 2/3.Specific Data Types/Video 2.md",
-    "Module 2/3.Specific Data Types/attachments/index_1.mp4",
     "Module 2/1.Structure/Video.md",
     "Module 1/Week 1 evaluation.md",
     "Module 2/3.Specific Data Types/Video 1.md",
-    "Module 2/3.Specific Data Types/attachments/subtitle.txt",
-    "Module 2/3.Specific Data Types/attachments/subtitle.txt.crdownload",
-    "Module 2/3.Specific Data Types/attachments/index.mp4",
-    "Module 2/3.Specific Data Types/attachments",
-    "Module 2/3.Specific Data Types/New folder",
     "Module 2/2.Basic Data Types & Statements/Quiz.md",
-    "Module 2/2.Basic Data Types & Statements/attachments/Pasted image 20230704092433.png",
     "Module 2/2.Basic Data Types & Statements/Reading.md",
-    "Module 2/2.Basic Data Types & Statements/attachments/Pasted image 20230704092325.png",
-    "Module 2/2.Basic Data Types & Statements/attachments/Pasted image 20230704092307.jpg",
     "Module 2/2.Basic Data Types & Statements/Video.md",
-    "Module 2/2.Basic Data Types & Statements/attachments/index.mp4",
     "Module 2/1.Structure/Quiz.md",
-    "Module 2/1.Structure/attachments/Pasted image 20230704090144.png",
     "Module 2/1.Structure/Reading.md",
-    "Module 2/1.Structure/attachments/Pasted image 20230704090039.png",
-    "Module 2/1.Structure/attachments/Pasted image 20230704090019.jpg",
     "Module 2/Untitled.md",
     "Module 1/4.Deploying Smart Contracts/Quiz.md",
     "Module 1/4.Deploying Smart Contracts/Reading.md",
     "Module 1/4.Deploying Smart Contracts/Video.md",
-    "Module 1/3.Processing Smart Contracts/Video.md",
-    "Module 1/3.Processing Smart Contracts/Quiz.md",
-    "Module 1/3.Processing Smart Contracts/Reading.md",
-    "Module 1/2.Smart Contracts Defined/Practice Quiz.md",
-    "Module 1/2.Smart Contracts Defined/Reading.md",
     "Untitled.canvas"
   ]
 }
